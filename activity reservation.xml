@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:padding="16dp"
+ android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:hint="name"
+  android:layout_width="match_parent"
+ android:layout_height="wrap_content"/>
+
+    <EditText
+  android:hint="time"
+  android:layout_width="match_parent"
+android:layout_height="wrap_content"
+  android:layout_marginTop="8dp"/>
+
+    <Button
+android:text="confirm reservation"
+   android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+   android:layout_marginTop="16dp"/>
+</LinearLayout>
